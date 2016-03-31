@@ -1,0 +1,24 @@
+{
+  "name": "chirp-chirp",
+  "version": "1.0.0",
+  "description": "# Getting Started - Create your own git repository for this exercise. - Commit often with meaningful commit messages.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauragonzalezzz/chirp-chirp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauragonzalezzz/chirp-chirp/issues"
+  },
+  "homepage": "https://github.com/lauragonzalezzz/chirp-chirp#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.4.5"
+  }
+}
