@@ -1,24 +1,26 @@
 {
-  "name": "chirp-chirp",
+  "name": "scss-gulp-boilerplate",
   "version": "1.0.0",
-  "description": "# Getting Started - Create your own git repository for this exercise. - Commit often with meaningful commit messages.",
-  "main": "app.js",
+  "description": "Project boilerplate with SASS and Gulp",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha -R spec --bail --watch"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lauragonzalezzz/chirp-chirp.git"
+    "url": "git+https://github.com/lauragonzalezzz/scss-gulp-boilerplate.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lauragonzalezzz/chirp-chirp/issues"
+    "url": "https://github.com/lauragonzalezzz/scss-gulp-boilerplate/issues"
   },
-  "homepage": "https://github.com/lauragonzalezzz/chirp-chirp#readme",
+  "homepage": "https://github.com/lauragonzalezzz/scss-gulp-boilerplate#readme",
   "devDependencies": {
+    "browser-sync": "^2.11.2",
     "chai": "^3.5.0",
     "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0",
     "mocha": "^2.4.5"
   }
 }
