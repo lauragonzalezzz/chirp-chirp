@@ -1,12 +1,8 @@
-  var arr = [];
 function chirpChirp(num){
+  // var arr = [];
   var chirp = "chirp";
-  if (num === 0){
-    return num;
+  if (num <= 1){
+    return "chirp";
   };
-  num--;
-  arr.push(chirp);
-  chirpChirp(num);
-  return arr.join(' ');
+  return "chirp " + chirpChirp(num -1);
 }
-console.log(chirpChirp(4));
